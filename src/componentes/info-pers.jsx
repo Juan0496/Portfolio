@@ -16,15 +16,13 @@ return (
                 <p>Web - Móvil - Sistemas embebidos</p>
                 
                 <div className='icocont'>
-                <a href='#' className='link-linked'>
+                <a href='https://www.linkedin.com/in/juan-moreno-palomino-1394512b9/' target='_blank' className='link-linked'>
                 <img src={linkedin } className='linkedin'></img>
                 </a>
                 <a  href='https://github.com/Juan0496' target='_blank' className='link-linked'>
                 <img   src={git } className='linkedin'></img>
                 </a>
-                <a href='#' className='link-linked'>
-                <img src={instagram} className='linkedin'></img>
-                </a>
+              
                 
                 </div>                         
         </div>             

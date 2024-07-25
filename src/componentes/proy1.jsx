@@ -84,7 +84,7 @@ return (
     </div>
     <div className='card-desc-cont'>
     <Card.Body className='descripcion3'>
-      <Card.Title>Face Detecter App</Card.Title>
+      <Card.Title>Face detection app</Card.Title>
       <Card.Text>
         Aplicación movil, elaborada con React Native, conectada a un servidor de <br/>
         FastApi; en el cúal, se realiza un proceso de deteccion de rostros; y con <br/>
