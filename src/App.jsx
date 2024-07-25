@@ -25,12 +25,7 @@ function App() {
   };
   //IMPORTAR VIDEO
   const video=""
-  const sobremi = "Soy técnico en Mecatrónica Industrial y ex estudiante de ingeniería de sistemas, con un perfil orientado a las tecnologias IOT, \
-                    apasionado por el desarrollo de aplicaciones web y móviles que ayuden a mejorar y \
-                    facilitar la vida de las personas; a pesar de que, mi formación profesional \
-                    esta relacionada con la electrónica y los pocesos industriales; \
-                    mi gusto por la programación me llevo a explorar el mundo del desarrollo \
-                    de manera autodidacta; logrando integrar ambas especialidades."
+  const sobremi = "Soy técnico en Mecatrónica Industrial y ex estudiante de ingeniería de sistemas, con un perfil orientado a las tecnologías IOT, poseo un sólido conocimiento en electrónica y pocesos industriales; y además, una especializacion en desarrollo de aplicaciones web y moviles."
                     
   
 
@@ -51,8 +46,10 @@ function App() {
       <Proyecto video={video} titulo="Aplicción web de detección de rostros con IA" ord="izq"></Proyecto>      
       </div>    
       <div className='about-me'> 
+        <div className='aboutTit'>
       <Proyectos titulo1="Portfolio" titulo2="Sobre mí" texto ={sobremi} ref={sobreMi}></Proyectos>  
-      <img src={foto} className='foto'></img>
+      </div>
+      <img src={foto} className='foto-perfil'></img>
       </div>
       <div className='skills'>        
       <Skills></Skills>

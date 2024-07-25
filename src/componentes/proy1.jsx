@@ -86,7 +86,7 @@ return (
     <Card.Body className='descripcion3'>
       <Card.Title>Face detection app</Card.Title>
       <Card.Text>
-        Aplicación movil, elaborada con React Native, conectada a un servidor de <br/>
+        Aplicación movil, elaborada con React Native, vinculada a un servidor <br/>
         FastApi; en el cúal, se realiza un proceso de deteccion de rostros; y con <br/>
         quien se establece comunicación via Websocket. Además, está también se <br/>
         comunica vía mqtt, con un Esp32, donde se realiza la activación de un led<br/>
