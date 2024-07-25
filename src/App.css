@@ -104,7 +104,7 @@ justify-content: center;
   border-radius: 9999px;
 }
 .foto-perfil{      
-  height: 50%;    
+  height: 80%;    
   border-radius: 9999px;
 }
 @media (max-width: 1024px) {
@@ -150,7 +150,7 @@ justify-content: center;
   flex-direction: row;
   justify-content: center; 
   align-items: center;
-  width: 30%;
+ 
 }
 .linkedin{  
   height: 80%;  
@@ -180,31 +180,27 @@ justify-content: center;
   padding-left: 8rem ;
   padding-right: 8rem;
 }
+.proyectosTit{  
+  height: 100%;
+  display: flex; 
+  flex-direction: column;  
+  justify-content: center;   
+  width: 100%;
+    
+ }
+
 @media (max-width: 1024px) {
   .proyectosCont{
     margin-bottom: 4rem; 
     padding-left: 0.5rem ;
     padding-right: 0.5rem;
   }
+  
+ 
 }
-.proyectosTit{  
-  height: 100%;
-  display: flex; 
-  flex-direction: column;  
-  justify-content: center;   
-  width: 80%;
-    
- }
- .aboutTit{  
-  height: 100%;
- display: flex;
-  width: 80%;  
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;
 
-    
- }
+
+ 
 .titulo1{
   font-size: 1.5rem; /* 24px */
   margin: 0.25rem;
@@ -352,15 +348,18 @@ margin: 0.25rem;
   display: flex;
   height: 40vh;
   align-items: center;
+  justify-content: space-between;
 }
 .aboutTit{  
   height: 100%;
   display: flex; 
   flex-direction: column;  
-  justify-content: center;  
-  width: 80%; 
+  justify-content: start;  
+  align-items: start;
+  width: 70%; 
     
  }
+
 .titulo1{
   font-size: 1.5rem; /* 24px */
   margin: 0.25rem;
@@ -372,7 +371,57 @@ font-weight: 400;
 font-weight: 900;
 margin: 0.25rem;
 }
+.descripcion-me{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+ 
+}
+.descripcion-me-cont{
+  width: 70%;
+  height: 100%;
+}
+.foto-perfil-cont{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+@media (max-width: 1024px) {
+  .aboutTit{  
+    height: 100%;
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center;
+    width: 100%;       
+   }
+   .foto-perfil-cont{
+    width: 0%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .descripcion-me{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: max-content;
+   
+  }
+  .descripcion-me-cont{
+    width: 70%;
 
+  }
+  .descripcion-me-cont{
+    width: 100%;
+
+  }
+}
 
 .skills{
   display: flex;

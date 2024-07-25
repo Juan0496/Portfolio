@@ -49,7 +49,9 @@ function App() {
         <div className='aboutTit'>
       <Proyectos titulo1="Portfolio" titulo2="Sobre mí" texto ={sobremi} ref={sobreMi}></Proyectos>  
       </div>
+      <div className="foto-perfil-cont">
       <img src={foto} className='foto-perfil'></img>
+      </div>
       </div>
       <div className='skills'>        
       <Skills></Skills>

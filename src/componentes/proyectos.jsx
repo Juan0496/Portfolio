@@ -6,10 +6,12 @@ return (
 <div className='proyectosTit' ref={ref} >     
   <p className='titulo1'>{titulo1}</p>    
   <h2 className='titulo2'>{titulo2}</h2>   
-  <div>  
+  <div className='descripcion-me'> 
+    <div className="descripcion-me-cont">
       <p className='h1S'>
         {texto}
-        </p>  
+      </p>  
+    </div> 
   
   </div>
 </div>
