@@ -25,7 +25,7 @@ function App() {
   };
   //IMPORTAR VIDEO
   const video=""
-  const sobremi = "Soy técnico en Mecatrónica Industrial y ex estudiante de ingeniería de sistemas, con un perfil orientado a las tecnologías IOT, poseo un sólido conocimiento en electrónica y pocesos industriales; y además, una especializacion en desarrollo de aplicaciones web y moviles."
+  const sobremi = "Soy técnico en Mecatrónica Industrial y ex estudiante de ingeniería de sistemas, con un perfil orientado a las tecnologías IOT, poseo un sólido conocimiento en electrónica y pocesos industriales; y además, una especialización en desarrollo de aplicaciones web y moviles."
                     
   
 

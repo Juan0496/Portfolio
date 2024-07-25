@@ -27,31 +27,7 @@ function Proyecto(props) {
 
 return (
     <section className='proyects-section'>
-    <Card  className='cardContent'>
-    <Card.Img variant="top" src={tienda} className='video3' />
-    <div className='card-desc-cont1'>
-    <Card.Body className='descripcion3'>
-      <Card.Title>Prototipo de E-commerce</Card.Title>
-      <Card.Text>
-        Ejercicio de tienda virtual; desarrollada con el fin de poner en práctica, <br/>
-        métodos y herramientas de Next.js; tales como: Hooks, SearchParms, Client y<br/>
-        Server components, etc; ademas, esta posee autenticación con Auth0 y <br/>
-        componentes de Taiwind
-      </Card.Text>
-    </Card.Body>
-    <ListGroup className="proycontent3">
-        <Card.Img variant="top" src={next} className='skillicon' />
-        <Card.Img variant="top" src={react} className='skillicon' />
-        <Card.Img variant="top" src={html} className='skillicon' />
-        <Card.Img variant="top" src={css} className='skillicon' />
-       
-    </ListGroup>
-    <Card.Body className='proycontent3'>
-      <Card.Link className='h1S'  href="https://ecommerce-next-khaki.vercel.app/" target="_blank">Página web</Card.Link>
-      <Card.Link className='h1S'  href="https://github.com/Juan0496/Ecommerce-next.git" target="_blank">Repositorio</Card.Link>
-    </Card.Body>
-    </div>
-    </Card>
+      
     <Card  className='cardContent'>
       <Card.Img variant="top" src={faceRecovery} className='video3' />
       <div className="card-desc-cont1">
@@ -78,7 +54,8 @@ return (
     </div>
    </Card>
 
-   <Card className='cardContent2'>
+
+      <Card className='cardContent'>
     <div className='card-img-cont'>
       <YouTube  videoId='votS5KqadC8' opts={opts} className='video' />
     </div>
@@ -86,9 +63,9 @@ return (
     <Card.Body className='descripcion3'>
       <Card.Title>Face detection app</Card.Title>
       <Card.Text>
-        Aplicación movil, elaborada con React Native, vinculada a un servidor <br/>
+        Aplicación movil, elaborada con React Native, vinculada a un servidor estructurado en<br/>
         FastApi; en el cúal, se realiza un proceso de deteccion de rostros; y con <br/>
-        quien se establece comunicación via Websocket. Además, está también se <br/>
+        quien se establece comunicación via Websocket. Además, esta se <br/>
         comunica vía mqtt, con un Esp32, donde se realiza la activación de un led<br/>
         que simula una alarma. La app contiene autenticación con firebase. 
       </Card.Text>
@@ -107,6 +84,34 @@ return (
     </Card.Body>
     </div>
    </Card>
+
+   
+
+   <Card  className='cardContent2'>
+    <Card.Img variant="top" src={tienda} className='video3' />
+    <div className='card-desc-cont1'>
+    <Card.Body className='descripcion3'>
+      <Card.Title>Prototipo de E-commerce</Card.Title>
+      <Card.Text>
+        Ejercicio de tienda virtual; desarrollada con el fin de poner en práctica, <br/>
+        métodos y herramientas de Next.js; tales como: Hooks, SearchParms, Client y<br/>
+        Server components, etc; ademas, esta posee autenticación con Auth0 y <br/>
+        componentes de Taiwind
+      </Card.Text>
+    </Card.Body>
+    <ListGroup className="proycontent3">
+        <Card.Img variant="top" src={next} className='skillicon' />
+        <Card.Img variant="top" src={react} className='skillicon' />
+        <Card.Img variant="top" src={html} className='skillicon' />
+        <Card.Img variant="top" src={css} className='skillicon' />
+       
+    </ListGroup>
+    <Card.Body className='proycontent3'>
+      <Card.Link className='h1S'  href="https://ecommerce-next-khaki.vercel.app/" target="_blank">Página web</Card.Link>
+      <Card.Link className='h1S'  href="https://github.com/Juan0496/Ecommerce-next.git" target="_blank">Repositorio</Card.Link>
+    </Card.Body>
+    </div>
+    </Card>
    </section>
   )
 }
